@@ -4,7 +4,8 @@
   "description": "A bare bones gulp starter kit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/gulp/bin/gulp.js"
   },
   "author": "RJ Miller <rjmiller10@gmail.com>",
   "license": "MIT",
