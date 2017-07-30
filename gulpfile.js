@@ -5,11 +5,11 @@ var browserSync = require('browser-sync').create();
 gulp.task('serve', function() {
   browserSync.init({
     server: {
-      baseDir: "./app"
+      baseDir: "static"
     }
   });
 
-  gulp.watch('app/**/*').on('change', browserSync.reload);
+  gulp.watch('static/**/*').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['serve']);

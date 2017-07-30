@@ -26,7 +26,7 @@ npm install
 
 Usage
 --------------
-To fire up browser-sync, and have it start listening for changes in `app/`:
+To fire up browser-sync, and have it start listening for changes in `static/`:
 
 ```
 npm start
@@ -35,5 +35,5 @@ npm start
 This should open the project (served from `localhost:3000`) in your default web
 browser.
 
-Whenever you make changes to any files in `app/`, browser-sync will detect them
+Whenever you make changes to any files in `static/`, browser-sync will detect them
 and automagically reload the page without you having to hit refresh.
